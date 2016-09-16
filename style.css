@@ -17,6 +17,9 @@ img {
 
 h1{
   font-family: Georgia, "Times New Roman", serif;
+  font-size: 3em;
+  font-style: italic;
+  color: #494949;
 }
 
 p{
