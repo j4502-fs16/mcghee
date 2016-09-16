@@ -4,7 +4,7 @@ img {
 
 #container {
     width: 95%;
-    background-color: #ffffff;
+    background-color: #fffb88;
     margin: 0 auto;
 }
 
@@ -31,7 +31,7 @@ body{
 
 #nav a:link, a:visited {
   display: block;
-  color: #b1b1b6;
+  color: #000000;
   background-color: #000bef;
   font-weight: bold;
   text-align: center;
