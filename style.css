@@ -4,6 +4,19 @@ img {
 
 #container {
     width: 95%;
-    background-color: black;
+    background-color: #ffffff;
     margin: 0 auto;
+}
+
+
+#nav {
+  padding:0;
+}
+
+h1{
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+body{
+  background-color: #black;
 }
