@@ -18,5 +18,13 @@ h1{
 }
 
 body{
-  background-color: #black;
+  background-color: #ebe3ce;
+}
+
+#nav li {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
 }
