@@ -8,7 +8,7 @@ img {
     margin: 0 auto;
     text-align: center;
 }
-#bullets {
+#bullets li {
   list-style-type: none;
 }
 
