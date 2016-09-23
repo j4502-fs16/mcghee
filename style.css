@@ -1,5 +1,8 @@
 img {
   border-style: none;
+  position: relative;
+  left: 400px;
+  top: -275px;
 }
 
 #container {
@@ -8,7 +11,10 @@ img {
     margin: 0 auto;
 }
 #bullets li {
-  list-style-type: none;
+  position: relative;
+  top: -20px;
+  left: 45px;
+  text-align: left;
 }
 
 #nav {
@@ -17,23 +23,29 @@ img {
 
 h1{
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 10em;
+  font-size: 5em;
   font-style: italic;
   color: #494949;
+  position: relative;
+  top: 25px;
+  left: -300px;
 }
 
 h2{
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 5em;
+  font-size: 2em;
   font-style:italic;
-  color: #494949
+  color: #494949;
+  position: relative;
+  top: -10px;
+  left: -450px;
 }
 
 p{
   font-family: Helvetica, Arial, sans-serif;
 }
 body{
-  background-color: #ebe3ce;
+  background-color: rgba(235, 227, 206, 0.5);
   text-align: center;
 }
 
@@ -57,4 +69,11 @@ body{
 }
 #nav a:hover, a:active {
   background-color: #FFFA74;
+}
+
+#bio {
+  text-align: justify;
+  position: relative;
+  top: -150px;
+  left: 50px;
 }
