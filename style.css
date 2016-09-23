@@ -2,12 +2,15 @@ img {
   border-style: none;
   position: relative;
   left: 400px;
-  top: -275px;
+  top: -285px;
 }
 
+html {
+  background-color: #4b4b7f;
+}
 #container {
     width: 95%;
-    background-color: #ebe3ce;
+    background-color: #e3e3ff;
     margin: 0 auto;
 }
 #bullets li {
@@ -22,7 +25,7 @@ img {
 }
 
 h1{
-  font-family: Georgia, "Times New Roman", serif;
+  font-family:'Libre Baskerville', Georgia, serif;
   font-size: 5em;
   font-style: italic;
   color: #494949;
@@ -32,7 +35,7 @@ h1{
 }
 
 h2{
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 2em;
   font-style:italic;
   color: #494949;
@@ -41,11 +44,8 @@ h2{
   left: -450px;
 }
 
-p{
-  font-family: Helvetica, Arial, sans-serif;
-}
 body{
-  background-color: rgba(235, 227, 206, 0.5);
+  background-color: #b6b6cc;
   text-align: center;
 }
 
@@ -55,20 +55,26 @@ body{
   margin: 0;
   padding: 0;
   width: 25%;
+
 }
 
 #nav a:link, a:visited {
   display: block;
-  color: #000000;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #9696ff;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   padding: 4px;
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Noto Serif', serif;
+  border-style: solid;
+  border-width: thin;
+  border-color: #000000
 }
 #nav a:hover, a:active {
-  background-color: #FFFA74;
+  background-color: #ffffff;
+  font-style: italic;
+  color: #000000;
 }
 
 #bio {
@@ -76,4 +82,13 @@ body{
   position: relative;
   top: -150px;
   left: 50px;
+  color: #000000
+}
+
+#bio a:link {
+  color: #000000;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
 }
