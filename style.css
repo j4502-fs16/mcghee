@@ -109,9 +109,9 @@ p {
       display: flex;
       flex-flow: row;
     }
-    img: {
+    img {
       width: 25%;
-      margin-right: 10px;
+      padding-right: 10px;
     }
 
 }
