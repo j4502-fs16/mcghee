@@ -11,16 +11,13 @@ html {
     background-color: #e3e3ff;
     margin: 0 auto;
 }
-#bullets li {
+.bullets li {
   position: relative;
   text-align: left;
 }
 
-.nav {
-  padding:0;
-}
 
-h1{
+header{
   font-family:'Libre Baskerville', Georgia, serif;
   font-size: 5em;
   font-style: italic;
@@ -28,12 +25,6 @@ h1{
   position: relative;
 }
 
-h2{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2em;
-  font-style:italic;
-  color: #494949;
-}
 
 body{
   background-color: #b6b6cc;
@@ -68,13 +59,13 @@ body{
   color: #000000;
 }
 
-#bio {
+.bio {
   text-align: justify;
   position: relative;
   color: #000000
 }
 
-#bio a:link {
+.bio a:link {
   color: #000000;
 }
 
@@ -99,10 +90,10 @@ p {
       order: 3;
       margin-left: 10px;
     }
-    #bullets {
+    .bullets {
       order: 2;
     }
-    #bio {
+    .bio {
       order: 4;
     }
 
