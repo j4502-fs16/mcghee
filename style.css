@@ -96,11 +96,11 @@ p {
       text-align: left;
     }
     .aside {
-      flex: 1 auto;
+      flex: 2 auto;
       order: 2;
     }
     .bio {
-      flex: 1 auto;
+      flex: 3 auto;
       order: 1;
     }
     .bio {
