@@ -1,12 +1,10 @@
 img {
   border-style: none;
-  position: relative;
   width: 100%;
 }
 
 .header, .bio, .aside {
   flex: 1 100%;
-  padding: 10px;
 }
 
 html {
@@ -102,7 +100,7 @@ p {
       order: 2;
     }
     .bio {
-      flex: 3 auto;
+      flex: 2 auto;
       order: 1;
     }
     .bio {
@@ -110,8 +108,7 @@ p {
       flex-flow: row;
     }
     img {
-      width: 25%;
-      padding-right: 10px;
+      width: 50%;
     }
 
 }
