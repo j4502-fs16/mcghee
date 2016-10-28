@@ -73,6 +73,11 @@ p {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 @media (min-width: 800px){
     .nav {
       flex-flow: row;
@@ -82,6 +87,9 @@ p {
     .nav li {
       width: 25%;
   }
+    header {
+      text-align: left;
+    }
 
 
 }
