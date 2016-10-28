@@ -90,14 +90,5 @@ p {
   }
     .nav li {
       width: 25%;
-    }
-    h1 {
-      flex: 1 auto;
-    }
-    h2 {
-      flex: 1;
-    }
-    img {
-      flex: 1;
-    }
+  
 }
