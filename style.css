@@ -13,6 +13,7 @@ html {
 }
 .bullets li {
   position: relative;
+  list-style-type: none;
   text-align: left;
 }
 
@@ -96,5 +97,9 @@ p {
     .bio {
       flex: 4 auto;
     }
-    
+    .bio {
+      display: flex;
+      flex-flow: row;
+    }
+
 }
