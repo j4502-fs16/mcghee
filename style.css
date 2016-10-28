@@ -100,15 +100,11 @@ p {
       order: 2;
     }
     .bio {
-      flex: 2 auto;
+      flex: 1 auto;
       order: 1;
     }
     .bio {
       display: flex;
       flex-flow: row;
     }
-    img {
-      width: 50%;
-    }
-
 }
