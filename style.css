@@ -1,6 +1,12 @@
 img {
   border-style: none;
   position: relative;
+  width: 100%;
+}
+
+.header, .bio, .aside {
+  flex: 1 100%;
+  padding: 10px;
 }
 
 html {
@@ -93,13 +99,20 @@ p {
     }
     .aside {
       flex: 1 auto;
+      order: 2;
     }
     .bio {
       flex: 3 auto;
+      order: 1;
     }
     .bio {
       display: flex;
       flex-flow: row;
+    }
+    img: {
+      width: 50%;
+      height: 50%;
+      margin-right: 10px;
     }
 
 }
