@@ -96,8 +96,9 @@ p {
     }
     img {
       margin-left: 10px;
-      align-items: flex-end;
     }
-
+    .aside {
+      float: right;
+    }
 
 }
