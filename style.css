@@ -1,8 +1,6 @@
 img {
   border-style: none;
   position: relative;
-  left: 400px;
-  top: -285px;
 }
 
 html {
@@ -15,12 +13,10 @@ html {
 }
 #bullets li {
   position: relative;
-  top: -20px;
-  left: 45px;
   text-align: left;
 }
 
-#nav {
+.nav {
   padding:0;
 }
 
@@ -30,8 +26,6 @@ h1{
   font-style: italic;
   color: #494949;
   position: relative;
-  top: 25px;
-  left: -300px;
 }
 
 h2{
@@ -39,9 +33,6 @@ h2{
   font-size: 2em;
   font-style:italic;
   color: #494949;
-  position: relative;
-  top: -10px;
-  left: -450px;
 }
 
 body{
@@ -49,16 +40,16 @@ body{
   text-align: center;
 }
 
-#nav li {
-  float: left;
+.nav li {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 25%;
-
+  display: flex;
+  flex-flow: column;
 }
 
-#nav a:link, a:visited {
+.nav a:link, a:visited {
   display: block;
   color: #ffffff;
   background-color: #9696ff;
@@ -71,7 +62,7 @@ body{
   border-width: thin;
   border-color: #000000
 }
-#nav a:hover, a:active {
+.nav a:hover, a:active {
   background-color: #ffffff;
   font-style: italic;
   color: #000000;
@@ -80,8 +71,6 @@ body{
 #bio {
   text-align: justify;
   position: relative;
-  top: -150px;
-  left: 50px;
   color: #000000
 }
 
@@ -92,3 +81,9 @@ body{
 p {
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+@media (min-width: 800px){
+    .nav {
+      flex-flow: row;
+      justify-content: flex-end;
+  }
