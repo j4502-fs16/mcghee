@@ -86,5 +86,8 @@ p {
     .nav {
       flex-flow: row;
       justify-content: flex-end;
-      width: 25%;
+      width: 100%;
   }
+    .nav a {
+      width: 25%;
+    }
