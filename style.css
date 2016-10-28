@@ -6,7 +6,7 @@ img {
 html {
   background-color: #4b4b7f;
 }
-#container {
+.container {
     width: 95%;
     background-color: #e3e3ff;
     margin: 0 auto;
@@ -88,6 +88,16 @@ p {
       justify-content: flex-end;
       width: 100%;
   }
-    .nav a {
+    .nav li {
       width: 25%;
     }
+    h1 {
+      flex: 1 auto;
+    }
+    h2 {
+      flex: 1;
+    }
+    img {
+      flex: 1;
+    }
+}
