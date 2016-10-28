@@ -90,6 +90,11 @@ p {
     header {
       text-align: left;
     }
-
-
+    .aside {
+      flex: 1 auto;
+    }
+    .bio {
+      flex: 4 auto;
+    }
+    
 }
