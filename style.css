@@ -93,12 +93,22 @@ p {
   }
     h1, h2 {
       text-align: left;
+      order: 1;
     }
     img {
+      order: 3;
       margin-left: 10px;
     }
+    #bullets {
+      order: 2;
+    }
+    #bio {
+      order: 4;
+    }
+
     .aside {
       float: right;
-    }
+      order:5
+     }
 
 }
