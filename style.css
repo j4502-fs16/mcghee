@@ -78,6 +78,8 @@ p {
   flex-flow: row wrap;
 }
 
+
+
 @media (min-width: 800px){
     .nav {
       flex-flow: row;
@@ -103,6 +105,10 @@ p {
       display: flex;
       flex-flow: row;
     }
+
+    #goaway {
+      visibility: hidden;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -110,5 +116,9 @@ p {
     .container {
       width: 70%;
       max-width: 60em;
+    }
+
+    #goaway {
+      visibility: hidden;
     }
 }
