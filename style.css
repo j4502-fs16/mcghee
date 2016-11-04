@@ -15,11 +15,6 @@ html {
     background-color: #e3e3ff;
     margin: 0 auto;
 }
-.bullets li {
-  position: relative;
-  list-style-type: none;
-  text-align: left;
-}
 
 
 header{
@@ -102,9 +97,18 @@ p {
     .bio {
       flex: 3 auto;
       order: 1;
+      width: 50%;
     }
     .bio {
       display: flex;
       flex-flow: row;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .container {
+      width: 70%;
+      max-width: 60em;
     }
 }
