@@ -4,7 +4,7 @@ $(document).ready(function() {
   });
 
 $(window).resize(function() {
-	   if (  $(window).width() > 800 ) {
+	   if (  $(window).width() > 500 ) {
 		$('nav ul').removeAttr('style');
 	 }
 	});
