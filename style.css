@@ -129,10 +129,12 @@ p {
   width: 2em;
 }
 
+
+@media (max-width: 799px) {
 .nav {
   display: none;
 }
-
+}
 @media screen and (min-width: 800px) {
   nav ul {
     display: flex;
